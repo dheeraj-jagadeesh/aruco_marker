@@ -18,14 +18,14 @@ pip install opencv-python opencv-contrib-python numpy
 ```bash
 sudo apt-get install libgl1-mesa-glx
 ```
-# Usage
+## Usage
 
 
-## For webcam input
+### For webcam input
 ```bash
 python aruco.py
 ```
-## For video file input
+### For video file input
 ```bash
 python aruco.py path/to/your/video.mp4
 ```
