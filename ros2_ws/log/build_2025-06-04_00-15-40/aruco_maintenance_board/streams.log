@@ -1,0 +1,43 @@
+[0.354s] Invoking command in '/home/dheeraj/ros2_ws/src/aruco_maintenance_board': PYTHONPATH=/home/dheeraj/ros2_ws/build/aruco_maintenance_board/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_maintenance_board build --build-base /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build install --record /home/dheeraj/ros2_ws/build/aruco_maintenance_board/install.log --single-version-externally-managed install_data
+[0.444s] /home/dheeraj/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.444s]   warnings.warn(msg)
+[0.496s] running egg_info
+[0.504s] creating ../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info
+[0.504s] writing ../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/PKG-INFO
+[0.504s] writing dependency_links to ../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/dependency_links.txt
+[0.505s] writing entry points to ../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/entry_points.txt
+[0.505s] writing requirements to ../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/requires.txt
+[0.505s] writing top-level names to ../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/top_level.txt
+[0.505s] writing manifest file '../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/SOURCES.txt'
+[0.523s] reading manifest file '../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/SOURCES.txt'
+[0.524s] writing manifest file '../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info/SOURCES.txt'
+[0.524s] running build
+[0.524s] running build_py
+[0.524s] creating /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build/lib/aruco_maintenance_board
+[0.524s] copying aruco_maintenance_board/aruco_standalone.py -> /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build/lib/aruco_maintenance_board
+[0.524s] copying aruco_maintenance_board/__init__.py -> /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build/lib/aruco_maintenance_board
+[0.524s] copying aruco_maintenance_board/aruco_detector.py -> /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build/lib/aruco_maintenance_board
+[0.524s] running install
+[0.527s] running install_lib
+[0.536s] creating /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board
+[0.536s] copying /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build/lib/aruco_maintenance_board/aruco_standalone.py -> /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board
+[0.536s] copying /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build/lib/aruco_maintenance_board/__init__.py -> /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board
+[0.536s] copying /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build/lib/aruco_maintenance_board/aruco_detector.py -> /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board
+[0.536s] byte-compiling /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board/aruco_standalone.py to aruco_standalone.cpython-310.pyc
+[0.537s] byte-compiling /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board/__init__.py to __init__.cpython-310.pyc
+[0.537s] byte-compiling /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board/aruco_detector.py to aruco_detector.cpython-310.pyc
+[0.539s] running install_data
+[0.539s] creating /home/dheeraj/ros2_ws/install/aruco_maintenance_board/share/ament_index/resource_index/packages
+[0.539s] copying resource/aruco_maintenance_board -> /home/dheeraj/ros2_ws/install/aruco_maintenance_board/share/ament_index/resource_index/packages
+[0.539s] copying package.xml -> /home/dheeraj/ros2_ws/install/aruco_maintenance_board/share/aruco_maintenance_board
+[0.539s] creating /home/dheeraj/ros2_ws/install/aruco_maintenance_board/share/aruco_maintenance_board/config
+[0.539s] copying config/config.json -> /home/dheeraj/ros2_ws/install/aruco_maintenance_board/share/aruco_maintenance_board/config
+[0.539s] creating /home/dheeraj/ros2_ws/install/aruco_maintenance_board/share/aruco_maintenance_board/launch
+[0.539s] copying launch/aruco_detector.launch.py -> /home/dheeraj/ros2_ws/install/aruco_maintenance_board/share/aruco_maintenance_board/launch
+[0.539s] running install_egg_info
+[0.548s] Copying ../../build/aruco_maintenance_board/aruco_maintenance_board.egg-info to /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages/aruco_maintenance_board-0.0.0-py3.10.egg-info
+[0.549s] running install_scripts
+[0.564s] Installing aruco_detector script to /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/aruco_maintenance_board
+[0.564s] Installing aruco_standalone script to /home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/aruco_maintenance_board
+[0.564s] writing list of installed files to '/home/dheeraj/ros2_ws/build/aruco_maintenance_board/install.log'
+[0.576s] Invoked command in '/home/dheeraj/ros2_ws/src/aruco_maintenance_board' returned '0': PYTHONPATH=/home/dheeraj/ros2_ws/build/aruco_maintenance_board/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dheeraj/ros2_ws/install/aruco_maintenance_board/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aruco_maintenance_board build --build-base /home/dheeraj/ros2_ws/build/aruco_maintenance_board/build install --record /home/dheeraj/ros2_ws/build/aruco_maintenance_board/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+{
+  "board_width": 600,
+  "board_height": 800,
+  "reference_board_height": 400,
+  "reference_square_fraction": 0.45,
+  "min_square_size": 20,
+  "aruco_dict": "DICT_4X4_50",
+  "object_relative_positions": [
+    [0.17, 0.17], [0.5, 0.17], [0.83, 0.17],
+    [0.17, 0.5], [0.83, 0.5],
+    [0.17, 0.83], [0.5, 0.83], [0.83, 0.83]
+  ],
+  "output_video": "output_maintenance_board.mp4"
+}

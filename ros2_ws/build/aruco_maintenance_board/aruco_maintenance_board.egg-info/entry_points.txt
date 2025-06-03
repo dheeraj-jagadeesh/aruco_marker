@@ -1,0 +1,3 @@
+[console_scripts]
+aruco_detector = aruco_maintenance_board.aruco_detector:main
+aruco_standalone = aruco_maintenance_board.aruco_standalone:main
